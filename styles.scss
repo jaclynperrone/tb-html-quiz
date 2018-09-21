@@ -61,11 +61,13 @@ aside {
 }
 
 code {
-  background-color: #f5f2f0;
-  border-radius: 5px;
-  border: 1px solid #dfdfdf;
-  font-family: $code-font-family;
-  padding: 0 $smallest-spacing;
+  .answer & {
+    background-color: #f5f2f0;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    font-family: $code-font-family;
+    padding: 0 $smallest-spacing;
+  }
 }
 
 .container {
