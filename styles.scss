@@ -56,26 +56,22 @@ h2 {
   margin-top: $largest-spacing;
 }
 
-// pre {
-//   background-color: #f6f6f6;
-//   border-radius: 2px;
-//   color: #545454;
-//   font-size: $font-size-medium;
-// }
+aside {
+  font-size: $font-size-small;
+}
+
+code {
+  background-color: #f5f2f0;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  font-family: $code-font-family;
+  padding: 0 $smallest-spacing;
+}
 
 .container {
   margin: 0 auto;
   max-width: 900px;
   padding: $base-spacing $largest-spacing;
-}
-
-// xmp {
-//   font-family: $code-font-family;
-//   margin: 0;
-// }
-
-aside {
-  font-size: $font-size-small;
 }
 
 .label-tag {
